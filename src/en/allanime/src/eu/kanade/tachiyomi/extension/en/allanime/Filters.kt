@@ -26,7 +26,7 @@ internal class GenreFilter(title: String, genres: List<String>) : Filter.Group<G
 private val subDubList: List<Pair<String, String>> = listOf(
     Pair("Sub", "sub"),
     Pair("Dub", "dub"),
-    Pair("Both", "both")
+    Pair("Both", "both"),
 )
 private val sortList = listOf(
     Pair("Update", ""),
