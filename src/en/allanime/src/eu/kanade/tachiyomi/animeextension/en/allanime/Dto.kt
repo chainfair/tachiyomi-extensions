@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.en.allanime
+package eu.kanade.tachiyomi.animeextension.en.allanime
 
 import eu.kanade.tachiyomi.source.model.SChapter
 import eu.kanade.tachiyomi.source.model.SManga

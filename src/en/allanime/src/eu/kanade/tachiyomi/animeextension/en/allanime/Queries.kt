@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.en.allanime
+package eu.kanade.tachiyomi.animeextension.en.allanime
 
 const val POPULAR_QUERY: String = $$"""
     query (
