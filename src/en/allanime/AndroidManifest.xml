@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-feature android:name="tachiyomi.animeextension" android:required="true" />
     <application>
         <activity
-            android:name=".en.allanime.AllMangaUrlActivity"
+            android:name="eu.kanade.tachiyomi.animeextension.en.allanime.AllMangaUrlActivity"
             android:excludeFromRecents="true"
             android:exported="true"
             android:theme="@android:style/Theme.NoDisplay">

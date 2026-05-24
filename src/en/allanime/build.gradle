@@ -1,7 +1,7 @@
 ext {
     extName = 'AllManga'
     extClass = '.AllManga'
-    extVersionCode = 18
+    extVersionCode = 52
     isNsfw = true
 }
 
@@ -9,4 +9,14 @@ apply plugin: "kei.plugins.extension.legacy"
 
 android {
     namespace = "eu.kanade.tachiyomi.animeextension"
+
+    defaultConfig {
+        versionName "14.52"
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile "AndroidManifest.xml"
+        }
+    }
 }
